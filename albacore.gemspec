@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.version = "0.2.7"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Derick Bailey", "etc"]
-  s.date = %q{2011-07-10}
+  s.authors = [%q{Derick Bailey}, %q{etc}]
+  s.date = %q{2011-10-23}
   s.description = %q{Easily build your .NET solutions with Ruby and Rake, using this suite of Rake tasks.}
   s.email = %q{albacorebuild@gmail.com}
   s.extra_rdoc_files = [
@@ -109,8 +109,8 @@ Gem::Specification.new do |s|
     "yaml_autoconfig_test.yml"
   ]
   s.homepage = %q{http://albacorebuild.net}
-  s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.6.0}
+  s.require_paths = [%q{lib}]
+  s.rubygems_version = %q{1.8.5}
   s.summary = %q{Dolphin-Safe Rake Tasks For .NET Systems}
 
   if s.respond_to? :specification_version then
